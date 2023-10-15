@@ -1,0 +1,245 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: "poppins",sans-serif;
+    
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    z-index: 10;
+}
+.navbar_netflix{
+height: 100%;
+width: 125px;
+
+}
+.navbar_nav_items{
+    display: flex;
+    gap: 10px;
+
+}
+.netflix_logo{
+    height: 100%;
+    width: 100%;
+}
+.language_drop_down{
+    background: transparent;
+    border: black;
+    color: white;
+    background-color:none;  
+}
+ .dropdown_container{
+    border: 1px solid white;
+    padding: 0.4rem;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.4);
+    width: 125px;
+    height: 95%;
+    text-align: center;
+    background: transparent;
+    
+} 
+
+.signin_button{
+    border:red;
+    background-color: rgb(247, 7, 7);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    height: 33px;
+    width: 100px;
+    
+}
+.hero_bg_img_cont{
+    width: 100%;
+    height: 100%;
+   
+}
+ .hero_bg_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;
+    
+}
+.signin_button:hover{
+    background-color: rgb(240, 68, 68);
+
+} 
+.hero_gb_overlay{
+position: absolute;
+inset: 0;
+width: 100%;
+height: 150%;
+background:  rgba(0,0,0,0.4);
+
+
+}
+.hero_card{
+position: absolute;
+top: 30%;
+left: 17%;
+text-align: center;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.hero_title{
+font-weight: 600;
+font-size: 3rem ;
+
+}
+.hero_subtitle,hero_desc{
+font-weight: 400;
+font-size: 1.3rem;
+
+}
+.email{
+width: 450px;
+height: 50px;
+color: black;
+padding: 0.25rem 0.5rem;
+border-radius: 3px;
+border-color: white;
+
+font-size: medium;
+}
+.get_started{
+font-size: large;
+width: 170px;
+height: 50px;
+background-color: #dc030f;
+border: 1px solid #dc030f;
+color: white;
+}
+.email_bar{
+display: flex;
+gap: 10px;
+left: 32%;
+justify-content: center;
+
+}
+.card-1,
+.card-2,
+.card-3{
+    border-top: 8px rgb(69 69 69) solid;
+    padding: 510px;
+}
+.footer{
+    border-top: 9px gray solid;
+}
+.card-1{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.desc-1{
+    padding-left: 88px;
+}
+.card-1 video{
+    position: relative;
+    width: 127%;
+    height: 54%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+
+}
+ .card-1 img{
+    grid-column: 2/2;
+    grid-row: 1/2;
+} 
+.style-cards h1{
+    font-size: 2.5rem;
+    padding: 1rem;
+    padding-left: 0;
+}
+.style-cards h3{
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+   .card-2{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 50%;
+    text-align: right; 
+    align-items: center;
+     padding: 25px 160px;
+    
+    
+}
+.desc-2{
+    padding-left: 88px;
+    
+}
+.card-3{
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    align-items: center;
+    padding: 25px 45px 50px;
+}
+.desc-3{
+    padding-left: 80px;
+    padding-right: 20px; 
+} 
+.card-3 video{
+    position: relative;
+    top: -70px;
+    left: 125px;
+    width: 65%;
+    height: 78%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+    z-index: -1;
+
+}
+ .card-3 img{
+    width: 110%;
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.footer,footer a{
+    color: #999;
+    font-size: 0.9rem;
+
+}
+ .footer p{
+    margin: 1.5rem;
+    padding-left: 100px;
+ }
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 5rem;
+    padding-left: 100px;
+}
+.footer li{
+    line-height: 1.9;
+}
+.end{
+    top: 20px;
+    left: 9px;
+}
+.dropdown_containe{
+    margin-top: 20px;
+    border: 1px gray solid;
+    width: 125px;
+    text-align: center;
+ border-radius: 2px;
+}
